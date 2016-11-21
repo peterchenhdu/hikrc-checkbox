@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # rc-checkbox
 ---
 
@@ -123,4 +122,3 @@ rc-checkbox is released under the MIT license.
 =======
 # hikrc-checkbox
 cethik react component checkbox
->>>>>>> origin/master
