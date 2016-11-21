@@ -11,7 +11,7 @@ React Checkbox
 
 [npm-image]: http://img.shields.io/npm/v/rc-checkbox.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/rc-checkbox
-[travis-image]: https://img.shields.io/travis/react-component/checkbox.svg?style=flat-square
+[travis-image]: https://travis-ci.org/peterchenhdu/hikrc-checkbox.svg?branch=master
 [travis-url]: https://travis-ci.org/react-component/checkbox
 [coveralls-image]: https://img.shields.io/coveralls/react-component/checkbox.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/react-component/checkbox?branch=master
