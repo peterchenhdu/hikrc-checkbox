@@ -13,7 +13,7 @@
     "lib",
     "assets/*.css"
   ],
-  "homepage": "http://github.com/react-component/checkbox",
+  "homepage": "https://github.com/peterchenhdu/hikrc-checkbox",
   "repository": {
     "type": "git",
     "url": "git@github.com:peterchenhdu/hikrc-checkbox.git"
