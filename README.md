@@ -9,24 +9,22 @@ React Checkbox
 [![gemnasium deps][gemnasium-image]][gemnasium-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: http://img.shields.io/npm/v/rc-checkbox.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/rc-checkbox
-
+[npm-image]: https://img.shields.io/npm/v/hikrc-checkbox.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/hikrc-checkbox
 [travis-image]: https://travis-ci.org/peterchenhdu/hikrc-checkbox.svg?branch=master
 [travis-url]: https://travis-ci.org/peterchenhdu/hikrc-checkbox
 
-[coveralls-image]: https://img.shields.io/coveralls/react-component/checkbox.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/react-component/checkbox?branch=master
-[gemnasium-image]: http://img.shields.io/gemnasium/react-component/checkbox.svg?style=flat-square
-[gemnasium-url]: https://gemnasium.com/react-component/checkbox
-[node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
-[node-url]: http://nodejs.org/download/
-[download-image]: https://img.shields.io/npm/dm/rc-checkbox.svg?style=flat-square
-[download-url]: https://npmjs.org/package/rc-checkbox
+[coveralls-image]: https://img.shields.io/coveralls/peterchenhdu/hikrc-checkbox.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/peterchenhdu/hikrc-checkbox?branch=master
+[gemnasium-image]: http://img.shields.io/gemnasium/peterchenhdu/hikrc-checkbox.svg?style=flat-square
+[gemnasium-url]: https://gemnasium.com/peterchenhdu/hikrc-checkbox
+
+[download-image]: https://img.shields.io/npm/dm/hikrc-checkbox.svg?style=flat-square
+[download-url]: https://www.npmjs.com/package/hikrc-checkbox
 
 ## install
 
-[![rc-checkbox](https://nodei.co/npm/rc-checkbox.png)](https://npmjs.org/package/rc-checkbox)
+[![hikrc-checkbox](https://nodei.co/npm/hikrc-checkbox.png)](https://npmjs.org/package/hikrc-checkbox)
 
 ## Usage
 
