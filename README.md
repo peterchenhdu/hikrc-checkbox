@@ -1,4 +1,4 @@
-# rc-checkbox
+# hikrc-checkbox
 ---
 
 React Checkbox
@@ -29,10 +29,20 @@ React Checkbox
 ## Usage
 
 ```js
-var Checkbox = require('rc-checkbox');
-var React = require('react');
-var ReactDOM = require('react-dom');
-ReactDOM.render(<Checkbox />, container);
+import React from 'react'
+import Checkbox from 'hikrc-checkbox';
+export default class Index extends React.Component{
+  constructor(props){
+    super(props);
+  }
+  render(){
+    return (
+      <div >
+        这是一个chechbox : <Checkbox />
+      </div>
+      );
+  }
+}
 ```
 
 ## API
