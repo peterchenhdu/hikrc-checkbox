@@ -24,29 +24,53 @@ const Test = React.createClass({
     return (<div style={{ margin: 20 }}>
       <div>
         <p>
-          <label><Checkbox checked onChange={onChange} disabled={this.state.disabled} /> controlled checked rc-checkbox</label>
+          <label>
+            <Checkbox checked onChange={onChange} disabled={this.state.disabled} />
+            controlled checked rc-checkbox
+          </label>
         </p>
         <p>
-          <label><input checked type="checkbox" onChange={onChange} disabled={this.state.disabled} /> controlled checked native</label>
-        </p>
-      </div>
-
-      <div>
-        <p>
-          <label><Checkbox defaultChecked onChange={onChange} disabled={this.state.disabled} /> defaultChecked rc-checkbox</label>
-        </p>
-        <p>
-          <label><input type="checkbox" defaultChecked onChange={onChange} disabled={this.state.disabled} /> defaultChecked native</label>
+          <label>
+            <input checked type="checkbox" onChange={onChange} disabled={this.state.disabled} />
+            controlled checked native
+          </label>
         </p>
       </div>
 
       <div>
         <p>
-          <label><Checkbox name="my-checkbox" defaultChecked onChange={onChange} disabled={this.state.disabled} /> defaultChecked rc-checkbox with name</label>
+          <label>
+            <Checkbox defaultChecked onChange={onChange} disabled={this.state.disabled} />
+            defaultChecked rc-checkbox
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" defaultChecked onChange={onChange}
+              disabled={this.state.disabled}
+            />
+            defaultChecked native
+          </label>
+        </p>
+      </div>
+
+      <div>
+        <p>
+          <label>
+            <Checkbox name="my-checkbox" defaultChecked onChange={onChange}
+              disabled={this.state.disabled}
+            />
+            defaultChecked rc-checkbox with name
+          </label>
         </p>
 
         <p>
-          <label><input name="my-checkbox" type="checkbox" defaultChecked onChange={onChange} disabled={this.state.disabled} />defaultChecked native with name</label>
+          <label>
+            <input name="my-checkbox" type="checkbox" defaultChecked
+              onChange={onChange} disabled={this.state.disabled}
+            />
+            defaultChecked native with name
+          </label>
         </p>
       </div>
 
