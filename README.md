@@ -129,6 +129,3 @@ open coverage/ dir
 ## License
 
 rc-checkbox is released under the MIT license.
-=======
-# hikrc-checkbox
-cethik react component checkbox
