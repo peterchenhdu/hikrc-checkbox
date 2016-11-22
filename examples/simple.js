@@ -1,9 +1,9 @@
 /* eslint no-console:0 */
 
-import 'rc-checkbox/assets/index.less';
+import 'hikrc-checkbox/assets/index.less';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Checkbox from 'rc-checkbox';
+import Checkbox from 'hikrc-checkbox';
 
 function onChange(e) {
   console.log('checkbox checked:', (e.target.checked));
@@ -24,96 +24,31 @@ const Test = React.createClass({
     return (<div style={{ margin: 20 }}>
       <div>
         <p>
-          <label>
-            <Checkbox
-              checked
-              onChange={onChange}
-              disabled={this.state.disabled}
-            />
-
-            &nbsp; controlled checked rc-checkbox
-          </label>
-          &nbsp;&nbsp;
-
+          <label><Checkbox checked onChange={onChange} disabled={this.state.disabled} /> controlled checked rc-checkbox</label>
         </p>
-
         <p>
-          <label>
-            <input
-              checked
-              type="checkbox"
-              onChange={onChange}
-              disabled={this.state.disabled}
-            />
-
-            &nbsp; controlled checked native
-          </label>
-          &nbsp;&nbsp;
+          <label><input checked type="checkbox" onChange={onChange} disabled={this.state.disabled} /> controlled checked native</label>
         </p>
       </div>
 
       <div>
         <p>
-          <label>
-            <Checkbox
-              defaultChecked
-              onChange={onChange}
-              disabled={this.state.disabled}
-            />
-
-            &nbsp; defaultChecked rc-checkbox
-          </label>
-          &nbsp;&nbsp;
-
+          <label><Checkbox defaultChecked onChange={onChange} disabled={this.state.disabled} /> defaultChecked rc-checkbox</label>
         </p>
-
         <p>
-          <label>
-            <input
-              type="checkbox"
-              defaultChecked
-              onChange={onChange}
-              disabled={this.state.disabled}
-            />
-
-            &nbsp; defaultChecked native
-          </label>
-          &nbsp;&nbsp;
+          <label><input type="checkbox" defaultChecked onChange={onChange} disabled={this.state.disabled} /> defaultChecked native</label>
         </p>
       </div>
 
       <div>
         <p>
-          <label>
-            <Checkbox
-              name="my-checkbox"
-              defaultChecked
-              onChange={onChange}
-              disabled={this.state.disabled}
-            />
-
-            &nbsp; defaultChecked rc-checkbox with name
-          </label>
-          &nbsp;&nbsp;
-
+          <label><Checkbox name="my-checkbox" defaultChecked onChange={onChange} disabled={this.state.disabled} /> defaultChecked rc-checkbox with name</label>
         </p>
 
         <p>
-          <label>
-            <input
-              name="my-checkbox"
-              type="checkbox"
-              defaultChecked
-              onChange={onChange}
-              disabled={this.state.disabled}
-            />
-
-            &nbsp; defaultChecked native with name
-          </label>
-          &nbsp;&nbsp;
+          <label><input name="my-checkbox" type="checkbox" defaultChecked onChange={onChange} disabled={this.state.disabled} />defaultChecked native with name</label>
         </p>
       </div>
-
 
       <button onClick={this.toggle}>toggle disabled</button>
 
