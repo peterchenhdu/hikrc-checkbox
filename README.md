@@ -3,6 +3,8 @@
 
 React Checkbox
 
+### 该仓库基于 https://github.com/react-component/checkbox 进行修改，仅用于个人学习。
+
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
